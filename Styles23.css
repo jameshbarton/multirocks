@@ -1,0 +1,64 @@
+#header {
+	background-image: url(images/RealHeader.png);
+	height: 94px;
+	width: 90%;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+#footer {
+	color: #000;
+	background-image: url(images/Rockfooter-bg.jpg);
+	text-align: justify;
+	clear: both;
+	height: 33px;
+	width: 90%;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0px;
+	bottom: 100px;
+	position: relative;
+}
+#menu {
+	background-image: url(images/menu-bg.jpg);
+	height: 32px;
+	width: 90%;
+}
+#middle {
+	width: 100%;
+}
+#submenu {
+	float: left;
+	width: 13%;
+}
+#content {
+	float: left;
+	width: 75%;
+	text-align: left;
+}
+h1 {
+	font-size: 30px;
+	color: #D43A2E;
+}
+.sub-bg {
+	background-image: url(images/submenu-bg.jpg);
+	background-repeat: repeat-y;
+	padding: 10px;
+	color: #D43A2E;
+	height: 75px;
+	width: 150px;
+}
+.bodytext {
+	font-size: 14px;
+	color: #FFF;
+}
+
+h2 {
+	font-size: 16px;
+	color: #D2382E;
+}
+.BlackText {
+	color: #000;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/RockTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Teacher Sign-up</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<script type="text/javascript">
+<!--
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+//-->
+</script>
+<!-- InstanceEndEditable -->
+<link href="Newstyles.css" rel="stylesheet" type="text/css" />
+<link href="Sty.css" rel="stylesheet" type="text/css" />
+<link href="Styles23.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	background-color: #000;
+}
+.LinkImage {
+	width: 0px;
+}
+a:link {
+	color: #FBF920;
+}
+a:visited {
+	color: #D5482C;
+}
+a:active {
+	color: #D5402C;
+}
+-->
+</style></head>
+
+
+<body onLoad="document.answerForm.myAnswer.focus()">
+<div id="header"><a href="index.html"><img src="images/MYlogo.png" alt="RockLogo" width="211" height="67" border="0" /></a></div>
+<div id="menu"><a href="index.html"><img src="images/RockHome.jpg" alt="Home" width="95" height="32" border="0" /></a><a href="about-us.html"><img src="images/RockAB.jpg" alt="About Us" width="95" height="32" border="0" /></a><a href="teachers.html"><img src="images/ForTeach.jpg" alt="For Teachers" width="95" height="32" border="0" /></a><a href="parents.html"><img src="images/ForPnts.jpg" alt="For Parents" width="95" height="32" border="0" /></a><a href="students.html"><img src="images/ForStdts.jpg" alt="For Students" width="95" height="32" border="0" /></a><a href="teacherLogin.php"><img src="images/TeachLogin.jpg" alt="Teachers (:" width="95" height="32" border="0" /></a><a href="studentLogin.php"><img src="images/StudLogin.jpg" alt="Students (:" width="95" height="32" border="0" /></a></div>
+<div id="middle">
+  <p>&nbsp;</p>
+  <div class="bodytext" id="submenu">
+    <p>&nbsp;</p>
+  </div>
+  <div class="bodytext" id="content"><!-- InstanceBeginEditable name="Content" -->
+    <h1>Teacher sign-up information:</h1>
+    <form action="" method="post" name="form1" id="form1" onsubmit="MM_validateForm('textfield','','R','textfield2','','R','textfield3','','RisEmail','textfield4','','R');return document.MM_returnValue">
+      <p>
+        <label for="First Name" class="bodytext">First Name</label>
+        <span class="BlackText">llllllllllllllllllllllllllllllllllllllll</span>
+        <input type="text" name="textfield" id="textfield" />
+        <br />
+      </p>
+      <p>
+        <label for="Last Name" class="bodytext">Last Name</label>
+        <span class="BlackText">llllllllllllllllllllllllllllllllllllll
+        l</span>
+        <input type="text" name="textfield2" id="textfield2" />
+        <br />
+        <br />
+        <label for="Email" class="bodytext">Email (will be your username)</label>
+        <span class="BlackText">l</span>
+        <input type="text" name="textfield3" id="textfield3" />
+      </p>
+      <p>
+        <label for="Password" class="bodytext">Password</label>
+        <span class="BlackText">        llllllllllllllllllllllllllllllllllllllllll
+        </span>
+        <input type="password" name="textfield4" id="textfield4" />
+      </p>
+      <p>
+        <label for="Phone Number" class="bodytext">Phone Number</label>
+        <span class="BlackText">lllllllllllllllllllllllllllllll </span>
+        <input type="text" name="textfield5" id="textfield5" />
+      </p>
+      <p>
+        <label for="School Name" class="bodytext">School Name</label>
+        <span class="BlackText">        lllllllllllllllllllllllllllllllllll</span>
+        <input type="text" name="textfield6" id="textfield6" />
+      </p>
+      <p class="BlackText">llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll<img src="images/Submit.jpg" width="95" height="32" alt="Here We Go." /></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><br />
+      </p>
+    </form>
+  <!-- InstanceEndEditable --></div>
+</div>
+<div id="footer">Thanks for visiting Multiplcation Rocks -- &copy;  2009 Audra Barton</div>
+</body>
+<!-- InstanceEnd --></html>

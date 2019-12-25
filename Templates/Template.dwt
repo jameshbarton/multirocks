@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="header"><img src="../images/logo.jpg" width="211" height="67" alt="inessSite Logo" /></div>
+<div id="menu"><img src="../images/home.jpg" width="95" height="32" alt="Home" /><img src="../images/about-us.jpg" width="112" height="32" alt="About Us" /><img src="../images/services.jpg" width="114" height="32" alt="Services" /><img src="../images/contact-us.jpg" width="127" height="32" alt="Contact Us" /></div>
+<div id="middle">
+  <div id="submenu">Content for  id "submenu" Goes Here</div>
+  <div id="content"><!-- TemplateBeginEditable name="content" -->content<!-- TemplateEndEditable --></div>
+</div>
+<div id="footer">(c) 2009 Company Name. All Rights Reserved</div>
+</body>
+</html>
